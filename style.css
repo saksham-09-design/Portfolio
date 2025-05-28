@@ -80,7 +80,7 @@ header ul{
     display: flex;
     padding: 15px 15px;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
     border-radius: 50px;
     background-color: rgba(0,0,69, 0.30);
     backdrop-filter: blur(10px);
@@ -436,6 +436,116 @@ header ul li a:hover{
 .card:nth-child(4) h1{
     bottom: 35%;
 }
+
+.certifications-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.cert-grid {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  padding: 0 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.cert-card {
+  perspective: 1000px;
+  width: 300px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.cert-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border: 1px solid grey;
+  background-color: #080020b7;
+  padding: 20px;
+}
+
+.card-front:hover,
+.card-back:hover{
+    box-shadow: 0 0 20px rgba(162, 111, 255, 0.5);
+}
+
+.card-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-front img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.card-front h3 {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+@media (max-width: 1023px) {
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 @media (max-aspect-ratio: 16/9) {
     .bg-video{
