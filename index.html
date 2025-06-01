@@ -24,19 +24,40 @@
                 <h1><span style="color: #72a1de">S</span>ak<span style="color: #72a1de">S</span>ham</h1>
             </div>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Certifications</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li class="certific"><a href="#certifications">Certifications</a></li>
             </ul>
             <div class="social">
                 <a href="https://www.youtube.com/@DecodeWithSaksham" target="_blank"><i class='bxl  bx-youtube'  ></i>  </a>
                 <a href="https://www.linkedin.com/in/saksham-loona-716248291" target="_blank"><i class='bxl  bx-linkedin-square'  ></i> </i> </a>
                 <a href="https://www.github.com/saksham-09-design" target="_blank"><i class='bxl  bx-github'  ></i> </i> </a>
             </div>
+            <div class="menu-icon">
+                <i class='bxl  bx-gemini'  ></i> 
+            </div>  
         </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bxl  bx-gemini'  ></i> 
+            </div>
+            
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a href="https://www.youtube.com/@DecodeWithSaksham" target="_blank"><i class='bxl  bx-youtube'  ></i>  </a>
+                <a href="https://www.linkedin.com/in/saksham-loona-716248291" target="_blank"><i class='bxl  bx-linkedin-square'  ></i> </i> </a>
+                <a href="https://www.github.com/saksham-09-design" target="_blank"><i class='bxl  bx-github'  ></i> </i> </a>
+            </div>
+        </div>
         <section class="info">
-            <div class="mainInfo">
+            <div class="mainInfo autoBlur">
                 <div class="infoTitle">
                     <i class='bxl  bx-sketch'  ></i> 
                     Student & Developer
@@ -50,18 +71,18 @@
             </div>
             
             <div class="infoVideo">
-                <video autoplay loop muted plays-inline src="videos/mainVideo.mp4" type="video/mp4"></video>
+                <video class="autoBlur" autoplay loop muted plays-inline src="videos/mainVideo.mp4" type="video/mp4"></video>
             </div>
 
             <div class="scrollDown"></div>
         </section>
-        <!--<div class="robot">
-            <h1>Welcome To My <span class="gradientClass">Portfolio</span>🖐️</h1>
+        <div class="robot">
+            <h1 class="autoDisplay">Welcome To My <span class="gradientClass">Portfolio</span>🖐️</h1>
             <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
             <spline-viewer url="https://prod.spline.design/isFp9suN-57LQ02F/scene.splinecode"></spline-viewer>
-        </div>-->
-        <section class="AboutMe">
-            <h1 class="infoHeading">Me in a <span class="gradientClass">Nutshell</span>😉</h1>
+        </div>
+        <section class="AboutMe" id="about">
+            <h1 class="infoHeading autoDisplay">Me in a <span class="gradientClass">Nutshell</span>😉</h1>
             <div class="infoAbout">
                     <div class="card">
                         <h1>Hi, I am Saksham.</h1>
@@ -91,16 +112,16 @@
             </div>
         </section>
 
-        <section class="projects">
-            <h1 class="project-title">My Projects🧑‍💻</h1>
+        <section class="projects" id="projects">
+            <h1 class="project-title autoDisplay">My <span class="gradientClass">Projects</span>🧑‍💻</h1>
             <div class="project-card">
                 <div class="projectImage" id="project-image1">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                            <div class="flip-card-front autoBlur">
                                 <img src="images/littlesigns.png" alt="Front Image">
                             </div>
-                            <div class="flip-card-back">
+                            <div class="flip-card-back autoBlur">
                                 <h2>Screenshots</h2>
                                 <div class="screenshot-container">
                                 <img src="images/LSSC1.jpeg" alt="Screenshot 1">
@@ -112,7 +133,7 @@
                     </div>
                     <div class="hover-sign"></div>
                 </div>
-                <div class="projectInfo">
+                <div class="projectInfo fadein-left">
                     <h1>Little Signs</h1>
                     <p>Little Signs is a effective and interactive way of getting started with Indian Sign Language. The app is equipped with 250+ words and 15+ Test along with a random test feature.</p>
                     <a href="https://github.com/saksham-09-design/little_signs" target="_blank"><button><i class='bxl  bx-stackblitz'  ></i> Github Repository</button></a>
@@ -123,10 +144,10 @@
                 <div class="projectImage">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                            <div class="flip-card-front autoBlur">
                                 <img src="images/lovedones.png" alt="Front Image">
                             </div>
-                            <div class="flip-card-back">
+                            <div class="flip-card-back autoBlur">
                                 <h2>Screenshots</h2>
                                 <div class="screenshot-container">
                                 <img src="images/LO1.jpeg" alt="Screenshot 1">
@@ -137,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projectInfo">
+                <div class="projectInfo fadein-left">
                     <h1>LovedOnes</h1>
                     <p>A girl's safety application that could be used in tough situations. App is equiped with features like SOS, Emergency Contacts, Safety Tips, etc.</p>
                     <a href="https://github.com/saksham-09-design/LovedOnes" target="_blank"><button><i class='bxl  bx-stackblitz'  ></i> Github Repository</button></a>
@@ -148,10 +169,10 @@
                 <div class="projectImage">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                            <div class="flip-card-front autoBlur">
                                 <img src="images/transactiononyourtips.png" alt="Front Image">
                             </div>
-                            <div class="flip-card-back">
+                            <div class="flip-card-back autoBlur">
                                 <h2>Screenshots</h2>
                                 <div class="screenshot-container">
                                 <img src="images/TYOT1.jpeg" alt="Screenshot 1">
@@ -162,7 +183,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projectInfo">
+                <div class="projectInfo fadein-left">
                     <h1>Transaction On Your Tips</h1>
                     <p>This app helps you to manage your day to day and short term expenses. You can track all your expenses and incomes in this app. Equiped with basic analysis also.</p>
                     <a href="https://github.com/saksham-09-design/Transaction_On_Your_Tips" target="_blank"><button><i class='bxl  bx-stackblitz'  ></i> Github Repository</button></a>
@@ -173,10 +194,10 @@
                 <div class="projectImage">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                            <div class="flip-card-front autoBlur">
                                 <img src="images/quantum.png" alt="Front Image">
                             </div>
-                            <div class="flip-card-back">
+                            <div class="flip-card-back autoBlur">
                                 <h2>Screenshots</h2>
                                 <div class="screenshot-container-storewise">
                                 <img src="images/quantum-b.png" alt="Screenshot 1">
@@ -185,7 +206,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projectInfo">
+                <div class="projectInfo fadein-left">
                     <h1>Quantum</h1>
                     <p>Quantum is an AI Bot developed in Python for desktops for automating day to day tasks easily. It can provide information, open apps, fetch news, fetch stock market data (NSE/BSE indexes), etc.</p>
                     <a href="https://github.com/saksham-09-design/AI_Desktop_Assitant" target="_blank"><button><i class='bxl  bx-stackblitz'  ></i> Github Repository</button></a>
@@ -196,10 +217,10 @@
                 <div class="projectImage">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                            <div class="flip-card-front autoBlur">
                                 <img src="images/storewise.png" alt="Front Image">
                             </div>
-                            <div class="flip-card-back">
+                            <div class="flip-card-back autoBlur">
                                 <h2>Screenshots</h2>
                                 <div class="screenshot-container-storewise">
                                 <img src="images/storewise-b.png" alt="Screenshot 1">
@@ -208,7 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projectInfo">
+                <div class="projectInfo fadein-left">
                     <h1>StoreWise</h1>
                     <p>StoreWise is a complete solution for small and medium size retail stores for managing their day to day activities.</p>
                     <a href="https://github.com/saksham-09-design/StoreWise" target="_blank"><button><i class='bxl  bx-stackblitz'  ></i> Github Repository</button></a>
@@ -216,8 +237,44 @@
             </div>
         </section>
 
+        <section class="skills" id="skills">
+            <h1 class="section-title autoDisplay">My <span class="gradientClass">Skills</span>💪</h1>
+            <div class="skill-box">
+                <img src="images/digital brain.png" alt="cpu" class="skill-image">
+                <div class="editor">
+                    <h1 class="gradientClass autoDisplay">Developer<i class='bxl  bx-sketch'  ></i> </h1>
+                    <p>
+                        I have developed 6 Android applications and 1 Windows Software. I can efficiently adapt with latest technologies. Along side I have knowledege of programming languages like C/C++, Python, Java and VB.NET.
+                    </p>
+                </div>
+                <div class="developer">
+                    <h1 class="gradientClass autoDisplay">Editor<i class='bxl  bx-git'></i></h1>
+                    <p>
+                        I have and experience of about 3 years in Video Editing. I do freelancing in my free time. I have a great hands-on experience on tools like Filmora 14, Adobe Premiere Pro, Adobe Photoshop.
+                    </p>
+                </div>
+                <div class="slider" reverse="true" style="
+                --width: 100px;
+                --height: 100px;
+                --quantity: 9;
+                ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="images/1.png" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="images/2.png" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="images/3.png" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="images/4.png" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="images/5.png" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="images/6.png" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="images/7.png" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="images/8.png" alt=""></div>
+                        <div class="item" style="--position: 9"><img src="images/9.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="certifications" class="certifications-section">
-        <h2 class="section-title">My <span class="gradientClass">Certifications</span> 🏅</h2>
+        <h2 class="section-title autoDisplay">My <span class="gradientClass">Certifications</span> 🏅</h2>
         <div class="cert-grid">
             <div class="cert-card">
             <div class="card-inner">
@@ -292,6 +349,15 @@
             </div>
             </div>
         </div>
+        </section>
+        
+        <section class="footer">
+            <h1>©️2025, Saksham all rights reserved.</h1>
+            <div class="box-icons">
+                <p><i class='bx bxl-youtube'></i></p>
+                <p><i class='bx bxl-github'></i></p>
+                <p><i class='bx bxl-linkedin-square'></i></p>
+            </div>
         </section>
 
         <div class="header-blackhole">
