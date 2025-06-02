@@ -949,6 +949,7 @@ header ul li a:hover{
     display: flex;
     justify-content: space-between;
     position: absolute;
+    justify-content: center;
     margin-top: 100px;
     bottom: 0;
     right: 0;
@@ -1289,6 +1290,7 @@ header ul li a:hover{
     }
 
     .footer{
+        justify-content: center;
         font-size: 10px;
 }
 }
