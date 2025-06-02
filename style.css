@@ -1012,6 +1012,10 @@ header ul li a:hover{
     animation-timeline: view();
 }
 
+.mainInfo a{
+    text-decoration: none;
+}
+
 @keyframes fadeInLeftAnimation{
     0%{
         opacity: 0;
